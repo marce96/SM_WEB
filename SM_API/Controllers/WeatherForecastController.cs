@@ -6,7 +6,6 @@ namespace SM_API.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        [HttpGet(Name = "ObtenerDatos")]
         public IActionResult Get()
         {
             return Ok();
